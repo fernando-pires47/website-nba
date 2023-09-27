@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"/>
+
+    <title>SA NBA</title>
+
+    <style>
+        .noticias {
+            display: block;
+            margin:30px auto 20px 40%;
+            text-align: center;
+            box-sizing: border-box;
+            border-style: solid;
+            border-width: 1px;
+            border-color: red;
+            border-radius: 15px;
+            background-color: #4169E1;
+            width: 261px;
+            height: 60px;
+            cursor: pointer;
+            color: white;
+        }
+
+        .noticias:hover{
+          background-color: rgb(128, 45, 45);
+          transition: background-color 1s;
+        }
+
+        .promocao{
+            border-top: red solid 1px;
+            margin-top: 20px;
+            background-color: #4169E1;
+        }
+
+        .promocao > h5{
+            color: white;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        video{
+            position: relative;
+            margin : auto auto auto 35%;
+            width: 440px;
+        }
+
+        iframe{
+            border: none;
+            margin: auto auto auto 30%;
+            display:block;
+            width: 500px;
+            height:300px;
+        }
+        
+        .mapa {
+            padding: 3em 0;
+            background: linear-gradient(rgb(255, 255, 255),rgb(181, 191, 248));
+        }
+
+        .mapa p {
+            text-align: center;
+        }
+
+        .promo {
+            width: 940px;
+            margin: 0px auto;
+            padding: 50px 0;
+        }
+
+        .promo li {
+            display: inline-block;
+            width: 30%;
+            vertical-align: top;
+            margin: 0.8% 1.5%;
+            padding: 30px 20px;
+            box-sizing: border-box;
+            border-radius: 15px;
+            min-width: 282px;
+            min-height: 420px;
+            background-color: white;
+            text-align: center;
+        }
+
+        .promo li:hover{
+            border: 2px solid red;
+            cursor: pointer;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="_css/estilo.css">
+
+</head>
+
+<script language="JavaScript" src="_javascript/funcoes.js">
+</script>
+
+<body>
+
+    <header id="cabecalho">
+        <img id="head" src="_imagens/nba_trans.png">
+    </header>
+
+    <section id="corpo">
+        <header id="cabecalho2">
+            <h2>Veja tudo sobre a NBA</h2>
+        </header>
+
+        <section class="video">
+            <video controls="controls" poster="_imagens/img_video.png">
+                <source src="_imagens/video.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section class="promocao">
+            <h5>Promoção</h5>
+            <hr>
+
+            <section>
+                <ul class="promo">
+                    <li>
+                        <img src="_imagens/bola.jpg">
+                        <p> Bola de Basquete NBA Graffiti</p>
+                        <h2>R$ 144,99</h2>
+                    </li>
+        
+                    <li>
+                        <img src="_imagens/clippers.jpg">
+                        <p>Regata Los Angeles Clippers</p>
+                        <h2>R$ 349,90</h2>
+                    </li>
+        
+                    <li>
+                        <img src="_imagens/boston.jpg">
+                        <p>Regata Boston Celtics</p>
+                        <h2>R$ 349,90</h2>
+                    </li>
+                </ul>
+            </section>
+
+        </section>
+
+        <section>
+            <a class="noticias" href="noticias.html">
+                <h2>Ver Noticias</h2>
+            </a>
+        </section>
+    </section>
+
+    <section class="mapa">
+        <p>Saiba onde nos encontrar.</p>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14316.421987393056!2d-52.67396389736237!3d-26.22576147303376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e552ef3e115339%3A0x851026e655f58013!2sCentro%2C%20Pato%20Branco%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1584031859332!5m2!1spt-BR!2sbr" 
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+        </iframe>
+    </section>
+    
+    <footer id="rodape">
+        <h3>&copy; 2020 - Fernando Pires</h3>
+        <h4><a target="_blank" href="http://www.facebook.com/fernando.pirees"> <i class="fa fa-facebook-official" aria-hidden="true"></i></a> | <a target="_blank" href="https://www.instagram.com/feernandopires/?hl=pt-br"> <i class="fa fa-instagram" aria-hidden="true"></i></a></h4>
+    </footer>
+</body>
+</html>

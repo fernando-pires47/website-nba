@@ -1,0 +1,50 @@
+
+
+
+body {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(181, 191, 248);
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    border-top: 1px solid red;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+img#icone {
+    position: absolute;
+    left: 1120px;
+    top: 60px;
+    max-width: 120px;
+}
+
+img#head{
+    max-width: 70px;
+}
+
+header#cabecalho {
+    background-color: white !important;
+}
+
+header#cabecalho h2 {
+    font-size: 18px;
+    color: black;
+    padding:0px;
+    margin-top: -3pt;
+}
+
+header#cabecalho2 h2{
+    font-size: 15pt;
+    background-color: #4169E1;
+    color: white;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
